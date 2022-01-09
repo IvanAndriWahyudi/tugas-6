@@ -46,6 +46,15 @@ switch(pilih){
                 console.log(b);
             }
             break;
+
+        case '6':
+            var bilangan = prompt("masukan bilangan");
+            var i = "";
+            while(i < bilangan){
+                console.log("Bilangan ", i);
+                i++;
+            }
+
 }
 var ulang = confirm("Apakah ingin mengulang");
 }while(ulang);
