@@ -11,6 +11,11 @@ switch(pilih){
             console.log("Tidak Lulus")
         }
         break;
+    case '2':
+        console.log("Ternary operator");
+        var umur = prompt("Masukan Umur anda ");
+        var a =(umur > 17)?"Bisa buat Sim" : "Tidak bisa buat sim";
+        console.log(a);
     
 }
 
