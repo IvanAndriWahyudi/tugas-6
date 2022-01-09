@@ -36,6 +36,14 @@ switch(pilih){
             for(let a in person){
                 console.log(a, ":", person[a]);
             }
+            break;
+
+        case '5':
+            var hewan = ["beruang", "Lumba-Lumba", "Semut", "Unta" ];
+            for(let b of hewan){
+
+                console.log(b);
+            }
 }
 
 
