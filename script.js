@@ -54,6 +54,14 @@ switch(pilih){
                 console.log("Bilangan ", i);
                 i++;
             }
+            break;
+        case '7':
+            try{
+                document.write(ikan);
+            }catch(error){
+                console.log(error);
+            }
+
 
 }
 var ulang = confirm("Apakah ingin mengulang");
