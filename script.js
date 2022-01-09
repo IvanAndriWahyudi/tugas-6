@@ -16,7 +16,13 @@ switch(pilih){
         var umur = prompt("Masukan Umur anda ");
         var a =(umur > 17)?"Bisa buat Sim" : "Tidak bisa buat sim";
         console.log(a);
+        break;
     
+    case '3':
+        console.log("for Loop");
+        for(var i = 0 ; i < 10 ; i++){
+            console.log("nomor ",i);
+        }
 }
 
 
