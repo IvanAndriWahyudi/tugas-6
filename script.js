@@ -1,3 +1,4 @@
+do{
 
 var pilih = prompt("Masukan Pilihan =");
 switch(pilih){
@@ -44,7 +45,7 @@ switch(pilih){
 
                 console.log(b);
             }
+            break;
 }
-
-
-
+var ulang = confirm("Apakah ingin mengulang");
+}while(ulang);
